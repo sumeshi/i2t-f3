@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  dev:
+    build:
+      context: .
+    container_name: i2tf3-dev
+    working_dir: /opt/app
+    tty: true
+    volumes:
+      - .:/opt/app
