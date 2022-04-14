@@ -8,7 +8,8 @@ authors = ["sumeshi <sum3sh1@protonmail.com>"]
 i2tf3 = 'i2tf3:run'
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
+evtx2es = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
