@@ -9,7 +9,7 @@ i2tf3 = 'i2tf3:run'
 
 [tool.poetry.dependencies]
 python = "^3.9"
-evtx2es = "^1.5.1"
+evtx2es = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

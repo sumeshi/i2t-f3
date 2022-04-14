@@ -112,7 +112,7 @@ test = ["pytest"]
 
 [[package]]
 name = "evtx2es"
-version = "1.5.1"
+version = "1.5.2"
 description = "Fast import of Windows EventLogs(.evtx) into Elasticsearch."
 category = "main"
 optional = false
@@ -373,7 +373,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "4866ed5793ce6d6862ab7d034e333c09135a8b34979a8fb4b79d50e97c97daff"
+content-hash = "e4776704e0c47fe7624b4f9ac6b4eaef4870d8ba6a8fb50e096b73e3be1b86f3"
 
 [metadata.files]
 atomicwrites = [
@@ -447,8 +447,8 @@ evtx = [
     {file = "evtx-0.7.3.tar.gz", hash = "sha256:321c6f4b39102d4d970e60eef8d07913321540cb524830962ecf61a8394cf71a"},
 ]
 evtx2es = [
-    {file = "evtx2es-1.5.1-py3-none-any.whl", hash = "sha256:62fa7fd44d38c9dbcdc0f4f835be8f34209b089763585599e8f3b812ac65bc0e"},
-    {file = "evtx2es-1.5.1.tar.gz", hash = "sha256:da6c72d65dfc3038963745b537430e610279a5656f5799a0049046c01b3578e5"},
+    {file = "evtx2es-1.5.2-py3-none-any.whl", hash = "sha256:59737a336d60ea89fdd7e12d4a40633d2fe1465bfacd66151439f1bb5f795d4f"},
+    {file = "evtx2es-1.5.2.tar.gz", hash = "sha256:f878ecc93376aaea164eb838ca10aedfa9d8114a710f20e2e395d66a46d23391"},
 ]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
